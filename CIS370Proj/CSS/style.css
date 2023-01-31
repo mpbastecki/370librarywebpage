@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:CIS370Proj/CSS/style.css
 /* import three fonts */
 @font-face
 {
@@ -132,3 +133,148 @@ body, nav{
 {
     float: left;
 }
+=======
+/* import three fonts */
+@font-face
+{
+    font-family: Bebas Neue;
+    src: url(../TYPE/BebasNeue-Regular.ttf)
+}
+
+@font-face
+{
+    font-family: Cormorant Garamond;
+    src: url(../TYPE/CormorantGaramond-Regular.ttf)
+}
+
+@font-face
+{
+    font-family: Cormorant Garamond Bold;
+    src: url(../TYPE/CormorantGaramond-Bold.ttf)
+}
+
+/* windowed display, if less than 1100px, show a background color */
+body, nav{
+    background-color: #F3EDE4;
+}
+@media screen and (min-width: 1100px)
+{
+    body
+    {
+        background-color: #A09481;
+    }
+
+    .container-fluid
+    {
+        width: 1100px;
+        background-color: #F3EDE4 ;
+        border-radius: 20px;
+    }
+}
+
+/* text is in bebas neue unless overwritten */
+#text
+{
+    font-family: Bebas Neue;
+}
+
+.smallText
+{
+    font-family: Cormorant Garamond;
+    font-size: large;
+}
+
+.smallTextBold
+{
+    font-family: Cormorant Garamond Bold;
+    font-size: large;
+}
+
+/* header image of a library, white text centered inside */
+.about-heading
+{
+    margin-top: 0px;
+    background-image: url(../img/AboutLibrary1.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.inner-content
+{
+    padding: 160px;
+    text-align: center;
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* consistent size for team member photos */
+.team-image
+{
+    float: left;
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* consistent size for team member photos */
+.book-image
+{
+    float: left;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* border around the contact section */
+.about-border
+{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.about-border:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* keep spacing between elements */
+.events
+{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* center text elements */
+.section-heading
+{
+    text-align: center;
+}
+
+/* stylize the card */
+.card
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    height: 300px;
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.book-image:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.float-left
+{
+    float: left;
+}
+>>>>>>> Stashed changes:CIS 370 Website/CSS/style.css
