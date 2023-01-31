@@ -1,0 +1,83 @@
+body{
+    background-color: #F3EDE4;
+    margin-top: 10px;
+}
+h1{
+    font-family: "Bebas Neue", Arial;
+}
+h2{
+    font-family: "Bebas Neue", Arial;
+}
+p{
+    font-family: "Cormorant Garamond", Baskerville;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../TYPE/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../TYPE/CormorantGaramond-Regular.ttf");
+}
+/* Adjust font size of title */
+.title1{
+    font-size: 50px;
+}
+.img-left{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    padding: 15px;
+}
+.text-right{
+    width: 70%;
+    height: auto;
+    float: right;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 21px;
+}
+/* style an image to fit the whole screen and be in the background behind the title*/
+.backgroundimg {
+    /* The image used */
+    background-image: url("../IMG/NewsletterCover2.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* style the title of the web page to be in the center, on top of the background */
+#header {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: sienna;
+    translate: 25% 70%;
+}
+.text-left{
+    width: 70%;
+    height: auto;
+    float: left;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 21px;
+}
+.img-right{
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-top: 50px;
+    padding: 15px;
+}
+.bg-color{
+    background-color: antiquewhite;
+}

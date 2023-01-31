@@ -1,0 +1,136 @@
+/* import three fonts */
+@font-face
+{
+    font-family: Bebas Neue;
+    src: url(../TYPE/BebasNeue-Regular.ttf)
+}
+
+@font-face
+{
+    font-family: Cormorant Garamond;
+    src: url(../TYPE/CormorantGaramond-Regular.ttf)
+}
+
+@font-face
+{
+    font-family: Cormorant Garamond Bold;
+    src: url(../TYPE/CormorantGaramond-Bold.ttf)
+}
+
+/* windowed display, if less than 1100px, show a background color */
+body, nav{
+    background-color: #F3EDE4;
+}
+@media screen and (min-width: 1100px)
+{
+    body
+    {
+        background-color: #A09481;
+    }
+
+    .container-fluid
+    {
+        width: 1100px;
+        background-color: #F3EDE4 ;
+        border-radius: 20px;
+    }
+}
+
+/* text is in bebas neue unless overwritten */
+#text
+{
+    font-family: Bebas Neue;
+}
+
+.smallText
+{
+    font-family: Cormorant Garamond;
+    font-size: large;
+}
+
+.smallTextBold
+{
+    font-family: Cormorant Garamond Bold;
+    font-size: large;
+}
+
+/* header image of a library, white text centered inside */
+.about-heading
+{
+    margin-top: 0px;
+    background-image: url(../img/AboutLibrary1.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.inner-content
+{
+    padding: 160px;
+    text-align: center;
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* consistent size for team member photos */
+.team-image
+{
+    float: left;
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* consistent size for team member photos */
+.book-image
+{
+    float: left;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* border around the contact section */
+.about-border
+{
+    border: dashed #A09481;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* keep spacing between elements */
+.events
+{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* center text elements */
+.section-heading
+{
+    text-align: center;
+}
+
+/* stylize the card */
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.book-image:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.float-left
+{
+    float: left;
+}
