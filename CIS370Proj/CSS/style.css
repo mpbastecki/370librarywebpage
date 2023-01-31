@@ -58,7 +58,7 @@ body, nav{
 .about-heading
 {
     margin-top: 0px;
-    background-image: url(../IMG/AboutLibrary1.jpg);
+    background-image: url(../img/AboutLibrary1.jpg);
     background-position: center center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -79,6 +79,16 @@ body, nav{
     float: left;
     width:  200px;
     height: 250px;
+    object-fit: cover;
+}
+
+/* consistent size for team member photos */
+.book-image
+{
+    float: left;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -106,7 +116,19 @@ body, nav{
 /* stylize the card */
 .card
 {
-    border:1px solid;
-    border-radius:20px
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
+.book-image:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.float-left
+{
+    float: left;
+}
