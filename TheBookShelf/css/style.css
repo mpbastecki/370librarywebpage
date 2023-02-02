@@ -1,0 +1,158 @@
+/* import three fonts */
+
+
+@font-face
+{
+    font-family: Bebas Neue;
+    src: url(../type/bebasneue-regular.ttf)
+}
+
+@font-face
+{
+    font-family: Cormorant Garamond;
+    src: url(../type/cormorantgaramond-regular.ttf)
+}
+
+
+/* windowed display, if less than 1100px, show a background color */
+body, nav
+{
+    background-color: #F3EDE4;
+}
+@media screen and (min-width: 1100px)
+{
+    body
+    {
+        background-color: #A09481;
+    }
+
+    .container-fluid
+    {
+        width: 1100px;
+        background-color: #F3EDE4 ;
+        border-radius: 50px;
+    }
+}
+
+/* text is in bebas neue unless overwritten */
+#text
+{
+    font-family: Bebas Neue;
+}
+
+.smallText
+{
+    font-family: Cormorant Garamond;
+    font-size: large;
+}
+
+.smallTextBold
+{
+    font-family: Cormorant Garamond;
+    font-size: large;
+}
+
+/* header image of a library, white text centered inside */
+.about-heading
+{
+    margin-top: 0px;
+    background-image: url(../IMG/AboutLibrary1.jpg);
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.inner-content
+{
+    padding: 160px;
+    text-align: center;
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* consistent size for team member photos */
+.team-image
+{
+    float: left;
+    width:  200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.book-image
+{
+    width:  150px;
+    height: 250px;
+    object-fit: fill;
+    border-radius: 5%;
+}
+
+/* border around the contact section */
+.about-border
+{
+    border: none;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.about-border:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+/* keep spacing between elements */
+.events
+{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* center text elements */
+.section-heading
+{
+    text-align: center;
+}
+
+/* stylize the card */
+.card
+{
+    border:0px solid;
+    border-radius:0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10%;
+    box-shadow: 5px 10px #A09481;
+    width: 200px;
+    margin: 15px;
+}
+
+.book-image:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.float-left
+{
+    float: left;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: xx-large;
+    text-shadow: 2px 2px black;
+}
+
+.indent1 
+{
+    padding-left: 50px;
+}
+.indent2 
+{
+    padding-left: 100px;
+}

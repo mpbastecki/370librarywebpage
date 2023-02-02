@@ -1,0 +1,21 @@
+.indent1 
+{
+    padding-left: 50px;
+}
+
+.indent2 
+{
+    padding-left: 100px;
+}
+
+@font-face
+{
+    font-family: Cormorant Garamond;
+    src: url(../type/cormorantgaramond-regular.ttf)
+}
+
+#wrapper 
+{
+    background-color: #F3EDE4;
+    font-family: Cormorant Garamond; 
+}

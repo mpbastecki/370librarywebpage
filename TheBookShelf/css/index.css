@@ -1,0 +1,213 @@
+/* Change the background color and set the font */
+Body
+{
+    background-color: #F3EDE4;
+    font-family: "Cormorant Garamond", Arial;
+}
+
+h1
+{
+    font-family: "Bebas Neue", Arial;
+}
+
+/* resize the logo in the navigation bar*/
+.Logo
+{
+    width: 100%;
+    height: auto;
+}
+
+@font-face 
+{
+    font-family: "Cormorant Garamond";
+    src: url("../type/cormorantgaramond-regular.ttf");
+}
+
+@font-face 
+
+{
+    font-family: "Bebas Neue";
+    src: url("../type/bebasneue-regular.ttf");
+}
+
+
+
+/* STYLE THE IMG ON HOME PAGE */
+.coverimg
+{
+    /* The image used */
+    background-image: url("../img/bgimg1.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* STYLING THE FOOTER */
+.footer-clean 
+{
+    padding:50px 0;
+    background-color:#A09481;
+    color: black;
+}
+
+.footer-clean h3 
+{
+    font-family: "Bebas Neue", Arial;
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer-clean ul 
+{
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+
+.footer-clean ul a 
+{
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.footer-clean ul a:hover 
+{
+    opacity:1;
+}
+
+.footer-clean .item.social 
+{
+    text-align:right;
+}
+
+@media (max-width:767px) 
+{
+    .footer-clean .item 
+    {
+        text-align:center;
+        padding-bottom:20px;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .footer-clean .item.social 
+    {
+        text-align:center;
+    }
+}
+
+.footer-clean .item.social > a 
+{
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover 
+{
+    opacity:0.9;
+}
+
+@media (max-width:991px) 
+{
+    .footer-clean .item.social > a 
+    {
+        margin-top:40px;
+    }
+}
+
+@media (max-width:767px) 
+{
+    .footer-clean .item.social > a 
+    {
+        margin-top:10px;
+    }
+}
+
+.footer-clean .copyright 
+{
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+    align-content: center;
+}
+
+.imagesize
+{
+    width: 212px;
+    height: 39px;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn 
+{
+  background-color: #F3EDE4;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #A09481;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F3EDE4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #A09481;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+h3{
+    font-family: Bebas Neue;
+}
+
