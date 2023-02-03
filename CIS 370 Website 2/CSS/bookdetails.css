@@ -1,0 +1,21 @@
+/* Change the background color and set the font */
+Body{
+    background-color: #F3EDE4;
+    font-family: "Cormorant Garamond", Arial;
+}
+h1{
+    font-family: "Bebas Neue", Arial;
+    font-size: 50px;
+}
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../TYPE/CormorantGaramond-Regular.ttf");
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../TYPE/BebasNeue-Regular.ttf");
+}
+/* Change the background color of the related books section */
+.bg-color{
+    background-color: #e7ddcf;
+}
