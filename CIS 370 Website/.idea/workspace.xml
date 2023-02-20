@@ -33,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jlynn/OneDrive/Documents/GitHub/370librarywebpage/CIS 370 Website",
+    "last_opened_file_path": "C:/Users/jlynn/OneDrive/Documents/370/CIS 370 Website",
     "list.type.of.created.stylesheet": "CSS"
   }
 }]]></component>
@@ -43,6 +43,19 @@
       <recent name="C:\Users\jlynn\OneDrive\Documents\370\CIS370Proj\CSS" />
       <recent name="C:\Users\jlynn\OneDrive\Documents\370\CIS370Proj\IMG" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +68,8 @@
       <workItem from="1674579312578" duration="18087000" />
       <workItem from="1674925613658" duration="71000" />
       <workItem from="1675101689853" duration="11055000" />
-      <workItem from="1675177165767" duration="2230000" />
+      <workItem from="1675177165767" duration="2780000" />
+      <workItem from="1675179986120" duration="41000" />
     </task>
     <servers />
   </component>
